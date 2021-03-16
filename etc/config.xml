@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <tattranpaymentt>
+                <payment_action>authorize</payment_action>
+                <active>1</active>
+                <model>TatTran\PaymentT\Model\Tatdeptraivcl</model>
+                <order_status>pending</order_status>
+                <title>Tat Tran PaymentT</title>
+                <allowspecific>0</allowspecific>
+                <group>Offline</group>
+            </tattranpaymentt>
+        </payment>
+    </default>
+</config>
